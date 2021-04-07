@@ -1,0 +1,303 @@
+html,body,figure,img,div,input,textarea,p,h1,h2,h3,h4,h5,h6,ul,li,a,main{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    color: rgba(0,0,0,.87);
+    
+}
+
+
+.hidden{display: none;}
+
+
+/*HEARDER*/
+
+header{ 
+    background-color: #fff;
+    padding: 17px 0 10px 14px ;
+    border: 1px solid rgb(46 49 51 / 15%);
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+}
+header .container .linha{
+    display: flex;
+    align-items: center;
+}
+header .coluna-img{
+     display: inline-block;
+     vertical-align: middle;
+}
+header .coluna-titulo{ 
+    display: inline-block;
+    vertical-align: middle;
+}
+h1{ font-weight: 500;
+    font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 1.28571429rem;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+dt{ font-size: 18px;}
+
+
+
+/*MAIN*/
+/*primeira parte do site*/
+main{padding: 10rem 0 0 0 ;}
+
+.linha-meio{text-align: center;}
+
+.titulo-1{padding: 0 0 40px 0;}
+
+h2{font-weight: 500;}
+
+.texto-1{padding: 40px 0 0 0;}
+
+
+
+/*segunda parte do site*/
+.containerjogos{padding: 12rem 0 0 0 ;}
+
+.container-minegames{
+    margin-left: 47%;
+    
+    
+}
+.sub-coluna{box-shadow: inset 0 0 0 0.3em rgb(0 0 0 / 10%);
+    border-radius: 500em!important;  
+    width: 6em!important;
+    height: 6em!important;
+}
+
+.eugamepad{    
+    width: 60px;
+    height: 45px;    
+}
+.fa{
+    color: #2185d0!important;    
+}
+.fa-gamepad{
+       padding: 20px 0 0 20px;
+}
+.example-item{   
+    padding: 5px 0 65px;
+}
+.example-item_first{ 
+    margin-left: -15px;
+    width: 130px;
+    height: 30px;
+}
+.example2{
+       display: flex;
+       padding: 0 0 50px;
+}
+.example-text1{   
+    width: 80px;
+    height: 30px;
+    margin-left: 22%;
+}
+.example-text2{
+    width: 200px;
+    height: 30px;
+    margin-left: 39.888%;
+}
+
+.containergame{
+    display: inline-block;
+    text-align: center;   
+}
+
+.game_1{
+    display: flex;
+}
+.sub-container_1{
+    display: block;
+    width: 45%;
+    height: 220px;
+    margin-left: 38px;
+}
+.sub-container_2{
+    display: block;  
+    width: 45%;
+    height: 220px;
+    margin-left: 45px;
+}
+
+.gamepa-1{padding: 0 0 30px;}
+.gamepa-2{padding: 0 0 30px;}
+
+
+/*terceira parte do site*/
+.personagens{padding: 16rem 0 0 0 ;}
+
+.container-minegames2{margin-left: 47%;}
+
+.sub-coluna2{box-shadow: inset 0 0 0 0.3em rgb(0 0 0 / 10%);
+    border-radius: 500em!important;  
+    width: 6em!important;
+    height: 6em!important;
+}
+.eugamepad2{    
+    width: 60px;
+    height: 60px;
+    padding: 15px 0 0 22px;
+}
+.fa{color: #2185d0!important;}
+
+.fa-gamepad2{padding: 40px 0 0 20px;}
+.example-item2{   padding: 5px 0 65px;}
+.example-item_first2{ 
+    margin-left: -10px;
+    width: 130px;
+    height: 30px;
+}
+.name_characters{
+    text-align: center;
+    padding: 0 0 50px;
+    
+}
+.colorprincipal{color: #2185d0!important;}
+
+.namejogadores{
+    display: flex;
+    padding: 0 0 20px;
+}
+
+.joe_wik{   
+    margin-left: 24%;
+}
+
+.robot_wik{
+    margin-left: 43.5555%;
+}
+
+.containerjogadores{
+    display: inline-block;
+    
+}
+
+.subcontainerjogadores{
+    display: flex;
+}
+
+.examplecontainerjoe{   
+    text-align: center;
+    margin-left: 203px;
+    width: 70%;
+    height: 170px;    
+}
+
+.examplecontainerrobotix{
+    text-align: center;
+    margin-left: 290px;
+    width: 100%;
+    height: 170px;
+}
+
+.examplepadi1{padding: 20px 0 0;}
+.examplepadi2{padding: 20px 0 0;}
+
+
+
+
+/*FOOTER*/
+
+.container-pai{padding: 90px 0 0;}
+.container-footer{   
+    background-color: #1b1c1d;
+    padding: 0 0 25px;
+    
+}
+.linha-footer{
+   
+    
+}
+.eulatura{
+    padding: 30px 0 0 0;
+    margin-left: 100px;
+}
+.titulo-HF{}
+p{}
+h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.img-play-store{
+    padding: 10px 0 0 0;
+    width: 270px;
+    height: 120px;
+}
+nav{}
+.my-privacy{
+    
+    background-color: #e8e8e8;
+    border-radius: .28571429rem;
+    width: 140px;
+    height: 25px;
+    text-align: center;
+}
+
+.movinrigth{
+    margin-left: 80%;
+}
+h4{
+    color: rgba(0,0,0,.6);
+    font-size: .85714286rem;
+    font-weight: 400;
+    padding-top: 2px;
+    
+    
+
+    
+
+}
+
+
+/*MODO MOBILE*/
+@media screen and (min-width:0px) (max-width: 50px){
+
+    /*HEARDER*/
+
+header{ 
+    width:100% !important;
+    background-color: #fff ;
+    padding: 17px 0 10px 14px ;
+    border: 1px solid rgb(46 49 51 / 15%);
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+}
+header .container .linha{
+    display: flex;
+    align-items: center;
+}
+header .coluna-img{
+     display: inline-block;
+     vertical-align: middle;
+}
+header .coluna-titulo{ 
+    display: inline-block;
+    vertical-align: middle;
+}
+h1{ font-weight: 500;
+    font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
+    font-size: 1.28571429rem;
+    margin-top: -5px;
+    margin-left: 8px;
+}
+dt{ font-size: 18px;}
+
+
+
+
+
+}
+
+
+
+
+
+
