@@ -281,15 +281,22 @@ h4{
 
 /*MODO MOBILE*/
 
-@media only screen and (max-width: 472px){
+@media only screen and (max-width: 375px){
 
     /*MAIN*/
+    .titulo-1{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
 
-    .img-principal{width: 90%;}
+    .img-principal{
+        width: 90%;       
+        margin-right: 4%;
+    }
 
     .texto-1{
-        margin-left: 45px;
-        margin-right: 45px;
+        margin-left: 40px;
+        margin-right: 60px;
     }
 
     /*mini-games*/
@@ -311,7 +318,9 @@ h4{
 
     .example-text2{
        
-        margin-left: 20%;
+        margin-left: 22%;
+        
+        
     }
 
     .sub-container_1{
@@ -319,7 +328,8 @@ h4{
     }
 
     .sub-container_2{
-        margin-left: 20px;
+        margin-left: 10px;
+        margin-right: 25px;
     }
 
     .texto-Game-1{
@@ -333,6 +343,7 @@ h4{
 
 
     /*personagens*/
+    .containergame{padding: 0 0 50%;}
 
     .container-minegames2{
         margin-left: 40%;
@@ -342,41 +353,36 @@ h4{
         margin-left: 17%;
     }
 
-    .examplecontainerjoe{   
-        
-        margin-left: -40px;           
-    }
-
-    .examplepadi1{
-        
-    }
+ 
 
 
     .examplecontainerjoe{   
          
-        background-color: #2185d0;  
-        width: 50%;
-        
+         
+        width: 30%;
+       
+        margin-left: 40px; 
+        margin-right: 40px; 
               
+    }
+
+    .examplepadi1{
+       
     }
     
     .examplecontainerrobotix{
         
         margin-left: 0%;
-        background-color: aqua;
         
+        width: 45%;
     }
-
-
-
-
     /*footer*/
     .eulatura{     
         margin-left: 20px;
     }
 
     .movinrigth{
-        margin-left: 63%;
+        margin-left: 52%;
     }
 }
 
