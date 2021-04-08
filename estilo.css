@@ -286,8 +286,87 @@ h4{
 
 @media only screen and (max-width: 472px){
 
+    /*MAIN*/
+
+    .texto-1{
+        margin-left: 45px;
+        margin-right: 45px;
+        
+    }
+
+    /*mini-games*/
+
+    .container-minegames{
+        margin-left: 40%;
+    }
+
+    .example-text1{   
+       
+        margin-left: 17%;
+    }
+
+    .example-text2{
+       
+        margin-left: 20%;
+    }
+
+    .sub-container_1{
+        margin-left: 10px;
+    }
+
+    .sub-container_2{
+        margin-left: 20px;
+    }
+
+    .texto-Game-1{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .texto-Game-2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    /*personagens*/
+
+    .container-minegames2{
+        margin-left: 40%;
+    }
+
+    .joe_wik{
+        margin-left: 17%;
+    }
+
+    .examplecontainerjoe{   
+        
+        margin-left: -40px;           
+    }
+
+    .examplepadi1{
+        
+    }
+
+
+    .examplecontainerjoe{   
+         
+        background-color: #2185d0;  
+        width: 50%;
+        
+              
+    }
     
+    .examplecontainerrobotix{
+        
+        margin-left: 0%;
+        background-color: aqua;
+        
+    }
 
 
+
+
+    /*footer*/
+    
 }
 
