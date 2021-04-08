@@ -236,10 +236,7 @@ h2{font-weight: 500;}
     padding: 0 0 25px;
     
 }
-.linha-footer{
-   
-    
-}
+
 .eulatura{
     padding: 30px 0 0 0;
     margin-left: 100px;
@@ -288,14 +285,21 @@ h4{
 
     /*MAIN*/
 
+    .img-principal{width: 90%;}
+
     .texto-1{
         margin-left: 45px;
         margin-right: 45px;
-        
     }
 
     /*mini-games*/
 
+    .jogos-2{
+        width: 100%;       
+    }
+    .jogos-3{
+        width: 100%;
+    }
     .container-minegames{
         margin-left: 40%;
     }
@@ -367,6 +371,12 @@ h4{
 
 
     /*footer*/
-    
+    .eulatura{     
+        margin-left: 20px;
+    }
+
+    .movinrigth{
+        margin-left: 63%;
+    }
 }
 
