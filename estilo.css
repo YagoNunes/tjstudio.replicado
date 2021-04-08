@@ -16,15 +16,19 @@ html,body,figure,img,div,input,textarea,p,h1,h2,h3,h4,h5,h6,ul,li,a,main{
 /*HEARDER*/
 
 header{ 
+    
     background-color: #fff;
     padding: 17px 0 10px 14px ;
     border: 1px solid rgb(46 49 51 / 15%);
     border-radius: .28571429rem;
     box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+    width: 98.8%;
 }
+
 header .container .linha{
     display: flex;
     align-items: center;
+    
 }
 header .coluna-img{
      display: inline-block;
@@ -46,19 +50,38 @@ dt{ font-size: 18px;}
 
 /*MAIN*/
 /*primeira parte do site*/
-main{padding: 10rem 0 0 0 ;}
+main{padding: 10rem 0 0 0 ;
 
-.linha-meio{text-align: center;}
+}
 
-.titulo-1{padding: 0 0 40px 0;}
+.linha-meio{text-align: center;
+
+}
+
+.titulo-1{padding: 0 0 40px 0;
+}
 
 h2{font-weight: 500;}
 
-.texto-1{padding: 40px 0 0 0;}
+.texto-1{padding: 40px 0 0 0;
+
+}
+.img-principal{
+    width: 73%;
+    height: 73%;
+}
+.eu-exis{}
+.seila1{ 
+   
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
 /*segunda parte do site*/
+.jogos-2{width: 75%; height: 75%;}
+.jogos-3{width: 75%; height: 75%;}
 .containerjogos{padding: 12rem 0 0 0 ;}
 
 .container-minegames{
@@ -131,6 +154,8 @@ h2{font-weight: 500;}
 
 
 /*terceira parte do site*/
+.tam-joe{width: 45%; }
+.tam-robotix{width: 30%; }
 .personagens{padding: 16rem 0 0 0 ;}
 
 .container-minegames2{margin-left: 47%;}
@@ -186,7 +211,7 @@ h2{font-weight: 500;}
 .examplecontainerjoe{   
     text-align: center;
     margin-left: 203px;
-    width: 70%;
+    width: 100%;
     height: 170px;    
 }
 
@@ -258,46 +283,11 @@ h4{
 
 
 /*MODO MOBILE*/
-@media screen and (min-width:0px) (max-width: 50px){
 
-    /*HEARDER*/
+@media only screen and (max-width: 472px){
 
-header{ 
-    width:100% !important;
-    background-color: #fff ;
-    padding: 17px 0 10px 14px ;
-    border: 1px solid rgb(46 49 51 / 15%);
-    border-radius: .28571429rem;
-    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
-}
-header .container .linha{
-    display: flex;
-    align-items: center;
-}
-header .coluna-img{
-     display: inline-block;
-     vertical-align: middle;
-}
-header .coluna-titulo{ 
-    display: inline-block;
-    vertical-align: middle;
-}
-h1{ font-weight: 500;
-    font-family: Lato,"Helvetica Neue",Arial,Helvetica,sans-serif;
-    font-size: 1.28571429rem;
-    margin-top: -5px;
-    margin-left: 8px;
-}
-dt{ font-size: 18px;}
-
-
-
+    
 
 
 }
-
-
-
-
-
 
