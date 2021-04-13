@@ -200,8 +200,7 @@ h2{font-weight: 500;}
 }
 
 .containerjogadores{
-    display: inline-block;
-    
+    display: inline-block;    
 }
 
 .subcontainerjogadores{
@@ -212,18 +211,26 @@ h2{font-weight: 500;}
     text-align: center;
     margin-left: 203px;
     width: 100%;
-    height: 170px;    
+    height: 170px;
+        
 }
 
 .examplecontainerrobotix{
     text-align: center;
     margin-left: 290px;
-    width: 100%;
+    width: 150%;
     height: 170px;
+    
 }
 
-.examplepadi1{padding: 20px 0 0;}
-.examplepadi2{padding: 20px 0 0;}
+.examplepadi1{
+    padding: 20px 0 0;
+       
+}
+.examplepadi2{
+    padding: 20px 0 0;   
+    width: 112%;    
+}
 
 
 
@@ -311,16 +318,12 @@ h4{
         margin-left: 40%;
     }
 
-    .example-text1{   
-       
+    .example-text1{          
         margin-left: 17%;
     }
 
-    .example-text2{
-       
-        margin-left: 22%;
-        
-        
+    .example-text2{       
+        margin-left: 22%;       
     }
 
     .sub-container_1{
@@ -332,10 +335,7 @@ h4{
         margin-right: 25px;
     }
 
-    .texto-Game-1{
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+    
     .texto-Game-2{
         margin-left: 20px;
         margin-right: 20px;
@@ -343,38 +343,46 @@ h4{
 
 
     /*personagens*/
-    .containergame{padding: 0 0 50%;}
+    .containergame{
+        padding: 0 0 50%;
+    }
 
     .container-minegames2{
         margin-left: 40%;
+        
     }
 
     .joe_wik{
-        margin-left: 17%;
+        margin-left: 20%;
     }
-
- 
-
-
-    .examplecontainerjoe{   
-         
-         
-        width: 30%;
-       
-        margin-left: 40px; 
-        margin-right: 40px; 
-              
-    }
-
-    .examplepadi1{
-       
+    .robot_wik{
+        margin-left: 37%;
     }
     
-    .examplecontainerrobotix{
-        
-        margin-left: 0%;
-        
-        width: 45%;
+    .tam-joe{
+        width: 100%;
+    }
+    .tam-robotix{
+        width: 100%;
+    }
+
+    .examplecontainerjoe{           
+        width: 100%;      
+        margin-left: 20px; 
+        margin-right: 40px;              
+    }
+      
+    .examplecontainerrobotix{       
+        margin-left: 10px;       
+        width: 100%;
+    }
+    .examplepadi1{
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .examplepadi2{
+        margin-left: -10px;
+        margin-right: 0px;
     }
     /*footer*/
     .eulatura{     
