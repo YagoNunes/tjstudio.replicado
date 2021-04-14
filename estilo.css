@@ -25,7 +25,7 @@ header{
     width: 98.9%;
 }
 
-header .container .linha{
+header .linha{
     display: flex;
     align-items: center;
     
@@ -58,19 +58,25 @@ main{padding: 10rem 0 0 0 ;
 
 }
 
-.titulo-1{padding: 0 0 40px 0;
+.titulo-1{
+    padding: 0 0 40px 0;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h2{font-weight: 500;}
 
-.texto-1{padding: 40px 0 0 0;
+.texto-1{
+    padding: 40px 0 0 0;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 .img-principal{
     width: 73%;
     height: 73%;
 }
-.eu-exis{}
+
 .seila1{ 
    
     margin-left: auto;
@@ -80,21 +86,16 @@ h2{font-weight: 500;}
 
 
 /*segunda parte do site*/
-.jogos-2{width: 75%; height: 75%;}
-.jogos-3{width: 75%; height: 75%;}
 .containerjogos{padding: 12rem 0 0 0 ;}
-
 .container-minegames{
-    margin-left: 47%;
-    
-    
+    margin-left: 47%;  
 }
-.sub-coluna{box-shadow: inset 0 0 0 0.3em rgb(0 0 0 / 10%);
+.sub-coluna{
+    box-shadow: inset 0 0 0 0.3em rgb(0 0 0 / 10%);
     border-radius: 500em!important;  
     width: 6em!important;
     height: 6em!important;
 }
-
 .eugamepad{    
     width: 60px;
     height: 45px;    
@@ -103,7 +104,12 @@ h2{font-weight: 500;}
     color: #2185d0!important;    
 }
 .fa-gamepad{
-       padding: 20px 0 0 20px;
+    padding: 20px 0 0 20px;
+}
+
+.jogos-3{
+    width: 100%;
+    height: 100%;
 }
 .example-item{   
     padding: 5px 0 65px;
@@ -113,26 +119,10 @@ h2{font-weight: 500;}
     width: 130px;
     height: 30px;
 }
-.example2{
-       display: flex;
-       padding: 0 0 50px;
-}
-.example-text1{   
-    width: 80px;
-    height: 30px;
-    margin-left: 22%;
-}
-.example-text2{
-    width: 200px;
-    height: 30px;
-    margin-left: 39.888%;
-}
-
 .containergame{
     display: inline-block;
     text-align: center;   
 }
-
 .game_1{
     display: flex;
 }
@@ -142,20 +132,39 @@ h2{font-weight: 500;}
     height: 220px;
     margin-left: 38px;
 }
+
+.example-text1{   
+    width: 200px;
+    height: 30px;
+    margin-left: 35%;
+    padding: 0 0 80px;
+    
+}
+.jogos-2{
+    width: 100%;
+    height: 100%;
+}
 .sub-container_2{
     display: block;  
     width: 45%;
     height: 220px;
     margin-left: 45px;
 }
-
-.gamepa-1{padding: 0 0 30px;}
 .gamepa-2{padding: 0 0 30px;}
+.example-text2{
+    width: 200px;
+    height: 30px;
+    margin-left: 35%;
+    padding: 0 0 80px;
+    
+}
+
+
 
 
 /*terceira parte do site*/
-.tam-joe{width: 45%; }
-.tam-robotix{width: 30%; }
+.tam-joe{ }
+.tam-robotix{ }
 .personagens{padding: 16rem 0 0 0 ;}
 
 .container-minegames2{margin-left: 47%;}
@@ -287,114 +296,32 @@ h4{
 }
 
 
-/*MODO MOBILE*/
 
-@media only screen and (max-width: 375px){
 
-    header{width: 94%;}
-
-    /*MAIN*/
-    .titulo-1{
-        margin-right: 20px;
-        margin-left: 10px;
+@media only screen and (min-width:345px) and (max-width: 1000px){
+    .example-text2{     
+        margin-left: auto;      
+    }
+    .example-text1{     
+        margin-left:auto;      
     }
 
-    .img-principal{
-        width: 90%;       
-        margin-right: 4%;
-    }
+    .game_1{
+        display: inline-block;
+        
 
-    .texto-1{
-        margin-left: 40px;
-        margin-right: 60px;
-    }
-
-    /*mini-games*/
-
-    .jogos-2{
-        width: 100%;       
-    }
-    .jogos-3{
-        width: 100%;
     }
     .container-minegames{
-        margin-left: 40%;
+        margin-left: 35%;
     }
-
-    .example-text1{          
-        margin-left: 17%;
-    }
-
-    .example-text2{       
-        margin-left: 22%;       
-    }
-
-    .sub-container_1{
-        margin-left: 10px;
-    }
-
-    .sub-container_2{
-        margin-left: 10px;
-        margin-right: 25px;
-    }
-
-    
-    .texto-Game-2{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-
-    /*personagens*/
     .containergame{
-        padding: 0 0 50%;
+        margin-left: 7%;
     }
-
-    .container-minegames2{
-        margin-left: 40%;
-        
-    }
-
-    .joe_wik{
-        margin-left: 20%;
-    }
-    .robot_wik{
-        margin-left: 37%;
+    .mobile-left{
+       
     }
     
-    .tam-joe{
-        width: 100%;
-    }
-    .tam-robotix{
-        width: 100%;
-    }
-
-    .examplecontainerjoe{           
-        width: 100%;      
-        margin-left: 20px; 
-        margin-right: 40px;              
-    }
-      
-    .examplecontainerrobotix{       
-        margin-left: 10px;       
-        width: 100%;
-    }
-    .examplepadi1{
-        margin-left: 20px;
-        margin-right: 15px;
-    }
-    .examplepadi2{
-        margin-left: -10px;
-      
-    }
-    /*footer*/
-    .container-pai{padding: 170px 0 0 0;}
-    .eulatura{     
-        margin-left: 20px;
-    }
-
-    .movinrigth{
-        margin-left: 52%;
+    .sub-container_2{
+        padding: 150px 0 0;
     }
 }
-
