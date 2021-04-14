@@ -22,7 +22,7 @@ header{
     border: 1px solid rgb(46 49 51 / 15%);
     border-radius: .28571429rem;
     box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
-    width: 98.8%;
+    width: 98.9%;
 }
 
 header .container .linha{
@@ -241,6 +241,7 @@ h2{font-weight: 500;}
 .container-footer{   
     background-color: #1b1c1d;
     padding: 0 0 25px;
+    width: 100%;
     
 }
 
@@ -289,6 +290,8 @@ h4{
 /*MODO MOBILE*/
 
 @media only screen and (max-width: 375px){
+
+    header{width: 94%;}
 
     /*MAIN*/
     .titulo-1{
