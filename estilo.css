@@ -183,65 +183,44 @@ h2{font-weight: 500;}
     width: 130px;
     height: 30px;
 }
-.name_characters{
-    text-align: center;
-    padding: 0 0 50px;
-    
-}
+
 .colorprincipal{color: #2185d0!important;}
-
-.namejogadores{
-    display: flex;
-    padding: 0 0 20px;
-}
-
-.joe_wik{   
-    margin-left: 24%;
-}
-
-.robot_wik{
-    margin-left: 43.5555%;
-}
-
-.containerjogadores{
-    display: inline-block;    
-}
 
 .subcontainerjogadores{
     display: flex;
 }
-
-.examplecontainerjoe{   
+.examplecontainerjoe{  
+    display: inline-block;
     text-align: center;
-    margin-left: 203px;
-    width: 100%;
-    height: 170px;
-        
+    margin-left: 20%;
+    margin-right: 20%;  
 }
-
+.examplepadi1{
+    padding-top: 20px;
+}
+.example-text123{
+    margin-left: 5px;
+    padding: 0 0 20px;
+}
 .examplecontainerrobotix{
+    
+    display: inline-block;
     text-align: center;
-    margin-left: 290px;
-    width: 150%;
-    height: 170px;
+    margin-left: 10%;
+    margin-right: 10%;
     
 }
-
-.examplepadi1{
-    padding: 20px 0 0;
-       
+.example-text234{
+    margin-left: 5px;
+    padding: 0 0 20px;
 }
 .examplepadi2{
-    padding: 20px 0 0;   
-    width: 112%;    
+    padding-top: 20px;
 }
-
-
-
 
 /*FOOTER*/
 
-.container-pai{padding: 90px 0 0;}
+.container-pai{padding: 0px 0 0;}
 .container-footer{   
     background-color: #1b1c1d;
     padding: 0 0 25px;
@@ -300,8 +279,7 @@ h4{
     }
     .jogos-2{
         width: 100%;
-        height: 100%; 
-        
+        height: 100%;        
     }  
     .jogos-3{
         width: 100%;
@@ -309,8 +287,6 @@ h4{
     }
     .game_1{
         display: inline;
-        
-
     }
     .container-minegames{
         margin-left: 35%;
@@ -332,11 +308,23 @@ h4{
         margin-left: 28%;
     }
     .personagens{
-        padding: 300px 0 0 0;
+        padding: 170px 0 170px 0;
     }
     .texto-Game-2{
         width: 200%;
         margin-left: -10%;
     }
+    .container-minegames2{
+        margin-left: 35%;
+    }
     
+    .subcontainerjogadores{
+        display: inline-block;
+    }
+    .examplecontainerjoe{
+        padding: 0 0 50px;
+    }
+    .examplecontainerrobotix{
+        padding: 50px 0 0;
+    }
 }
