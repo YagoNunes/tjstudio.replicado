@@ -72,10 +72,7 @@ h2{font-weight: 500;}
     margin-right: 5%;
 
 }
-.img-principal{
-    width: 73%;
-    height: 73%;
-}
+
 
 .seila1{ 
    
@@ -86,6 +83,8 @@ h2{font-weight: 500;}
 
 
 /*segunda parte do site*/
+
+
 .containerjogos{padding: 12rem 0 0 0 ;}
 .container-minegames{
     margin-left: 47%;  
@@ -107,10 +106,7 @@ h2{font-weight: 500;}
     padding: 20px 0 0 20px;
 }
 
-.jogos-3{
-    width: 100%;
-    height: 100%;
-}
+
 .example-item{   
     padding: 5px 0 65px;
 }
@@ -120,47 +116,46 @@ h2{font-weight: 500;}
     height: 30px;
 }
 .containergame{
-    display: inline-block;
-    text-align: center;   
+   margin-left: 8%;
 }
 .game_1{
     display: flex;
+    text-align: center;
 }
 .sub-container_1{
-    display: block;
     width: 45%;
     height: 220px;
-    margin-left: 38px;
+    
 }
 
 .example-text1{   
     width: 200px;
     height: 30px;
-    margin-left: 35%;
+    margin-left: 28%;
     padding: 0 0 80px;
     
 }
-.jogos-2{
-    width: 100%;
-    height: 100%;
-}
-.sub-container_2{
-    display: block;  
+
+
+.sub-container_2{  
     width: 45%;
     height: 220px;
-    margin-left: 45px;
+    margin-left: 5%;
 }
 .gamepa-2{padding: 0 0 30px;}
 .example-text2{
     width: 200px;
     height: 30px;
-    margin-left: 35%;
+    margin-left: 23%;
     padding: 0 0 80px;
     
 }
 
-
-
+/*espaçamento das DT*/
+.saei2{
+    padding: 20px 0 0;
+}
+/*------------------*/
 
 /*terceira parte do site*/
 .tam-joe{ }
@@ -298,30 +293,50 @@ h4{
 
 
 
-@media only screen and (min-width:345px) and (max-width: 1000px){
-    .example-text2{     
-        margin-left: auto;      
+@media only screen and (min-width:145px) and (max-width: 1000px){
+    .img-principal{
+        width: 90%;
+        height: 90%;
     }
-    .example-text1{     
-        margin-left:auto;      
+    .jogos-2{
+        width: 100%;
+        height: 100%; 
+        
+    }  
+    .jogos-3{
+        width: 100%;
+        height: 100%;
     }
-
     .game_1{
-        display: inline-block;
+        display: inline;
         
 
     }
     .container-minegames{
         margin-left: 35%;
     }
-    .containergame{
-        margin-left: 7%;
+      
+    .sub-container_2{
+        padding: 180px 0 350px;
     }
-    .mobile-left{
-       
+   
+    .jogos-2{
+        width: 100%;
+        height: 100%;
+    }
+    .mobile-left{   
+        width: 200%;
+        margin-right: 15%;
+    }
+    .example-text1{
+        margin-left: 28%;
+    }
+    .personagens{
+        padding: 300px 0 0 0;
+    }
+    .texto-Game-2{
+        width: 200%;
+        margin-right: 25%;
     }
     
-    .sub-container_2{
-        padding: 150px 0 0;
-    }
 }
