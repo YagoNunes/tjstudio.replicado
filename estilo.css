@@ -320,7 +320,7 @@ h4{
         margin-left: -10%;
     }
     .container-minegames2{
-        margin-left: 29%;
+        margin-left: 27%;
     }
     
     .subcontainerjogadores{
@@ -329,11 +329,19 @@ h4{
     }
     .examplecontainerjoe{
         padding: 0 0 50px;
-        margin-left: 16%;
+        margin-left: 12%;
     }
     .examplecontainerrobotix{
         padding: 50px 0 0;
-        margin-left: 6%;
+        margin-left: 1%;
+    }
+    .examplepadi1{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .examplepadi2{
+        margin-left: 25px;
+        margin-right: 25px;
     }
     .movinrigth{
         margin-left: 45%;
