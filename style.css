@@ -158,6 +158,9 @@ h3.HFcolor{
     margin-left: 80%;
     
 }
+.textnone{
+    text-decoration: none;
+}
 
 dt.privacycolor{
     padding-top: 4px;
