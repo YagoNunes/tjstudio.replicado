@@ -1,0 +1,216 @@
+html,body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    padding: 3px 0;
+
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+    background-color:#fff;
+    margin-left: 0;
+    border: 1px solid rgb(46 49 51 / 17%);
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+}
+figcaption{
+    display: none;
+}
+.logowii{
+    width: 45px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:left
+    
+}
+.titulo{
+    margin-left: -25px;
+    margin-top: -10px;
+}
+h1.hfsize{
+    font-size: 1.2em;
+
+}
+
+.containertwo{
+    width: 100%;
+    
+    padding-top: 200px;
+
+}
+.navbartwo{
+    display: inline-block;
+    text-align: center;
+}
+.complitfrase{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding: 10px 0;
+    
+}
+.intruhf{
+    padding: 0 0 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.containerfagame{
+    padding-top: 10%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: #2185d0;
+}
+
+
+.containerthree{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+.textjogos1{
+    padding-top: 20px;
+    
+}
+.textjogos2{
+    padding-top: 20px;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+
+.conatinercharacters{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+.navbarjoe{
+    margin-right: 13%;
+    
+    
+}
+.navbarRobotix{
+    margin-left: 14%;
+    
+}
+
+.textojoe{
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.textoRobotix{
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.eiconainercima{
+    margin-top: 7%;
+}
+.containerfinal{
+
+    padding: 20px 0 50px;
+
+    width: 100%;
+    display: inline-block;
+
+    
+    background-color: #121212;
+}
+
+.navbarfooter{
+    margin-left: 10%;
+}
+h3.HFcolor{
+    color: #fff;
+    font-size: 0.8em;
+}
+.padprivacy{
+    padding-top: 5%;
+}
+.privacy{
+    
+    width: 130px;
+    height: 22px;
+    text-align: center;
+    background-color:  #e8e8e8;
+    border-radius: 4px;
+    margin-left: 80%;
+    
+}
+
+dt.privacycolor{
+    padding-top: 4px;
+    font-size: 0.7em;
+}
+@media screen and (max-width:1125px){
+    .eijoe{
+        width: 100%;
+    }
+    .containerthree{
+        display: inline-block;
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .jogosmini{
+        width: 55%;
+        height: 55%;
+    }
+    .textjogos1{
+        margin-left: 17%;
+        margin-right: 17%;
+    }
+    .navbarWhack{
+        padding-top: 40px;
+    }
+
+    .conatinercharacters{
+        display: inline-block;
+        padding-top: 40px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbarjoe{
+        margin-right: 0%;
+        
+    }
+
+    .navbarRobotix{
+        padding-top: 40px;
+        margin-left: 0%;
+
+    }
+
+    
+
+    
+}
+
+@media screen and (max-width: 735px){
+    .privacy{
+        margin-left: 50%;
+    }
+    
+}
